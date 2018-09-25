@@ -1,0 +1,326 @@
+<% include parts/header %>
+
+<div class="container col-md-11 col-md-offset-2 ">
+<!-- Pagination -->
+<ul class="pagination">
+    <li class="active"><a href="#" onclick="filterSelection('all')">ALL</a></li>
+    <li><a href="#" onclick="filterSelection('A')">A</a></li>
+    <li><a href="#" onclick="filterSelection('B')">B</a></li>
+    <li><a href="#" onclick="filterSelection('C')">C</a></li>
+    <li><a href="#" onclick="filterSelection('D')">D</a></li>
+    <li><a href="#" onclick="filterSelection('E')">E</a></li>
+    <li><a href="#" onclick="filterSelection('F')">F</a></li>
+    <li><a href="#" onclick="filterSelection('G')">G</a></li>
+    <li><a href="#" onclick="filterSelection('H')">H</a></li>
+    <li><a href="#" onclick="filterSelection('I')">I</a></li>
+    <li><a href="#" onclick="filterSelection('J')">J</a></li>
+    <li><a href="#" onclick="filterSelection('K')">K</a></li>
+    <li><a href="#" onclick="filterSelection('L')">L</a></li>
+    <li><a href="#" onclick="filterSelection('M')">M</a></li>
+    <li><a href="#" onclick="filterSelection('N')">N</a></li>
+    <li><a href="#" onclick="filterSelection('O')">O</a></li>
+    <li><a href="#" onclick="filterSelection('P')">P</a></li>
+    <li><a href="#" onclick="filterSelection('Q')">Q</a></li>
+    <li><a href="#" onclick="filterSelection('R')">R</a></li>
+    <li><a href="#" onclick="filterSelection('S')">S</a></li>
+    <li><a href="#" onclick="filterSelection('T')">T</a></li>
+    <li><a href="#" onclick="filterSelection('U')">U</a></li>
+    <li><a href="#" onclick="filterSelection('V')">V</a></li>
+    <li><a href="#" onclick="filterSelection('W')">W</a></li>
+    <li><a href="#" onclick="filterSelection('X')">X</a></li>
+    <li><a href="#" onclick="filterSelection('Y')">Y</a></li>
+    <li><a href="#" onclick="filterSelection('Z')">Z</a></li>
+</ul>
+
+<!-- End of Pagination
+========================================= -->
+
+<!-- Starting Tag Cloud -->
+<div class="row col-md-10 col-md-offset-0" id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('action')"> Action</button>
+  <button class="btn" onclick="filterSelection('adventure')"> Adventure</button>
+  <button class="btn" onclick="filterSelection('animation')"> Animation</button>
+  <button class="btn" onclick="filterSelection('children')"> Children</button>
+  <button class="btn" onclick="filterSelection('comedy')"> Comedy</button>
+  <button class="btn" onclick="filterSelection('romance')"> Romance</button>
+  <button class="btn" onclick="filterSelection('thriller')"> Thriller</button>
+  <button class="btn" onclick="filterSelection('reality')"> Reality</button>
+  <button class="btn" onclick="filterSelection('travel')"> Travel</button><br>
+  <button class="btn" onclick="filterSelection('suspense')"> Suspense</button>
+  <button class="btn" onclick="filterSelection('mystery')"> Mystery</button>
+  <button class="btn" onclick="filterSelection('crime')"> Crime</button>
+  <button class="btn" onclick="filterSelection('scifi')"> Sci-fi</button>
+  <button class="btn" onclick="filterSelection('miniseries')"> Mini-Series</button>
+  <button class="btn" onclick="filterSelection('documentary')"> Documentary</button>
+  <button class="btn" onclick="filterSelection('family')"> Family</button>
+</div>
+    <br>
+
+<!-- Ending Tag Cloud
+========================================= -->
+</div>
+    <br/>
+    <br/><br/><br/><br/><br/><br/><br/>
+<!-- Starting movie showcase -->
+<div class="container">
+<div class="panel panel-default">
+  <div class="panel-heading">Top 20 Shows
+          <input class="glyphicon glyphicon-search pull-right" placeholder="Search..." type="text">
+  </div>
+    <div class="panel-body">
+
+        <div class="row col-md-12">
+            <div class="col-md-3">
+                <div class="column animation B">
+                <div class="thumbnail">
+                    <a href="show1.html">
+                        <img src="movies/breaking-bad.jpeg" alt="Breaking Bad" style="width:100%">
+                        <div class="caption">
+                            <a href="show1.html" id="moviedetails"><p id="moviedetails"><b>Breaking Bad</b><br>Episodes 40</p></a>
+                        </div>
+                    </a>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="column children F">
+                <div class="thumbnail">
+                    <a href="show2.html">
+                        <img src="movies\fringe.jpg" alt="Fringe" style="width:100%">
+                        <div class="caption">
+                            <p href="show2.html" id="moviedetails"><b>  Fringe </b><br>Episodes 65</p>
+                        </div>
+                    </a>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="column children M">
+                <div class="thumbnail">
+                    <a href="show3.html">
+                        <img src="movies/agent carter.jpg" alt="Marvel's Agent Carter" style="width:100%">
+                        <div class="caption">
+                            <p id="moviedetails"><b> Marvel's Agent Carter   </b><br>Episodes 110</p>
+                        </div>
+                    </a>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="column comedy G">
+                <div class="thumbnail">
+                    <a href="show4.html">
+                        <img src="movies/game of thrones.jpg" alt="Game of Thrones" style="width:100%">
+                        <div class="caption">
+                            <p id="moviedetails"><b>Game of Thrones</b><br>Episodes 90</p>
+                        </div>
+                    </a>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row col-md-12">
+
+            <div class="col-md-3">
+                <div class="column action A">
+                <div class="thumbnail">
+                    <a href="#">
+                        <img src="movies/agents of S.H.I.E.L.D.jpg" alt="Agents of S.H.I.E.L.D" style="width:100%">
+                        <div class="caption">
+                            <p id="moviedetails"><b>Agents of S.H.I.E.L.D</b><br>Episodes 105</p>
+                        </div>
+                    </a>
+                </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-3">
+                <div class="column adventure P">
+                <div class="thumbnail">
+                    <a href="#">
+                        <img src="movies/person of interest.jpg" alt="Person of Interest" style="width:100%">
+                        <div class="caption">
+                            <p id="moviedetails"><b>Person of Interest</b><br>Episodes 130</p>
+                        </div>
+                    </a>
+                </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-3">
+                <div class="column action V">
+                <div class="thumbnail">
+                    <a href="#">
+                        <img src="movies/vikings.jpg" alt="Vikings" style="width:100%">
+                        <div class="caption">
+                            <p id="moviedetails"><b>Vikings</b><br>Episodes 10</p>
+                        </div>
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="column adventure L">
+                <div class="thumbnail">
+                    <a href="#">
+                        <img src="movies/lalaland.jpg" alt="lalaland" style="width:100%">
+                        <div class="caption">
+                            <p id="moviedetails"><b>La La Land</b><br>Episodes 60</p>
+                        </div>
+                    </a>
+                </div>
+                </div>
+            </div>
+        </div>
+<!--
+        <div class="row col-md-12">
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <a href="#">
+                        <img src="movies/gossipgirl.jpg" alt="GossipGirl" style="width:100%">
+                        <div class="caption">
+                            <p id="moviedetails"><b>GossipGirl</b><br>Episodes 86</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <a href="#">
+                        <img src="movies/dexter.jpg" alt="Dexter" style="width:100%">
+                        <div class="caption">
+                            <p id="moviedetails"><b>Dexter</b><br>Episodes 155</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <a href="#">
+                        <img src="movies/skyscraperposter.jpg" alt="Sky Scraper Poster" style="width:100%">
+                        <div class="caption">
+                            <p id="moviedetails"><b>Sky Scraper Poster</b><br>Episodes 186</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <a href="#">
+                        <img src="movies/blackpanther.jpg" alt="Black Panther" style="width:100%">
+                        <div class="caption">
+                            <p id="moviedetails"><b>Black Panther</b><br>Episodes 78</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row col-md-12">
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <a href="#">
+                        <img src="movies/forbiddenempire.jpg" alt="forbiddenempire" style="width:100%">
+                        <div class="caption">
+                            <p id="moviedetails"><b>Forbidden Empire</b><br>Episodes 130</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <a href="#">
+                        <img src="movies/rampage.jpg" alt="Rampage" style="width:100%">
+                        <div class="caption">
+                            <p id="moviedetails"><b>Rampage</b><br>Episodes 120</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <a href="#">
+                        <img src="movies/jurasicworld.jpg" alt="jurasicworld" style="width:100%">
+                        <div class="caption">
+                            <p id="moviedetails"><b>Jurasic World</b><br>Episodes 700</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <a href="#">
+                        <img src="movies/wonderwoman.jpg" alt="wonderwoman" style="width:100%">
+                        <div class="caption">
+                            <p id="moviedetails"><b>Wonder Women</b><br>Episodes 80</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+-->
+    </div>
+</div>
+</div>
+ <!-- Ending movie Showcase
+    ================================================== -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+<% include parts/footer %>
