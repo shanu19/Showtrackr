@@ -10,9 +10,9 @@ module.exports = {
   },
 
   'googleAuth' : {
-    'clientID'      : '109961413781-s1g00vfht28d379odlt9csrn1uljs26i.apps.googleusercontent.com',
-    'clientSecret'  : 'cXtxhcMbavGz6gL-jIitJ5wm',
-    'callbackURL'   : 'http://localhost:8080/auth/google/callback'
+    'clientID'      : '997003311172-tij6m2dcrqaa5she9tigq8a22q4knhi3.apps.googleusercontent.com',
+    'clientSecret'  : '-QEYDqTzvUNpoAHWNUdD4AnQ',
+    'callbackURL'   : 'https://assignment3-shanu.herokuapp.com/auth/google/callback'
   }
 
 };
